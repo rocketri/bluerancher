@@ -51,7 +51,3 @@ jobs:
     # Validates the Terraform configuration files
     - name: Terraform Validate
       run: terraform validate
-
-    - name: Terraform plan
-      run: terraform plan
-

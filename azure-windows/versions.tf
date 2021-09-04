@@ -18,10 +18,8 @@ terraform {
   backend "remote" {
     organization = "rocketlab"
 
-  workspaces {
+    workspaces {
       name = "BlueRancher-Quickstart"
     }
   }
-
-
 }

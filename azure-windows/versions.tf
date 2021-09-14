@@ -14,7 +14,7 @@ terraform {
     }
   }
   required_version = ">= 0.13"
-#This references the Terraform Cloud workspace and organization. 
+
   backend "remote" {
     organization = "rocketlab"
 
@@ -23,3 +23,4 @@ terraform {
     }
   }
 }
+#This references the Terraform Cloud workspace and organization. 

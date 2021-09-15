@@ -1,6 +1,6 @@
 # Quickstart examples for Rancher
 
-[![TF Code Validation & Integration Testing](https://github.com/rocketingineer/bluerancher/actions/workflows/TerraformCI.yml/badge.svg?branch=main&event=status)](https://github.com/rocketingineer/bluerancher/actions/workflows/TerraformCI.yml)
+[![TF Code Validation & Integration Testing](https://github.com/rocketingineer/bluerancher/actions/workflows/TerraformCI.yml/badge.svg?branch=main)](https://github.com/rocketingineer/bluerancher/actions/workflows/TerraformCI.yml)
 
 Quickly stand up an HA-style Rancher management server in your infrastructure provider of choice.
 

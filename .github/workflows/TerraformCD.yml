@@ -1,4 +1,4 @@
-name: 'TF Apply'
+name: 'TF Rancher Azure-Win Deploy '
 
 on:
   workflow_dispatch:  

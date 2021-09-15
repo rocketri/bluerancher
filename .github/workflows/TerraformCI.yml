@@ -44,12 +44,27 @@ jobs:
 
     # Initialize a new or existing Terraform working directory by creating initial files, loading any remote state, downloading modules, etc.
     - name: Terraform Init
-      run: terraform init
+      id: init
+      run: terraform init -no-color
 
     # Checks that all Terraform configuration files adhere to a canonical format
     - name: Terraform Format
-      run: terraform fmt -check
+      id: fmt
+      run: terraform fmt -recursive -check
 
     # Validates the Terraform configuration files
     - name: Terraform Validate
-      run: terraform validate
+      id: validate
+      run: terraform validate -no-color
+    
+    # Executes TF plan against code for integration testing
+    - name: Terraform Plan
+      id: plan
+      run: terraform plan -no-color
+            
+
+
+
+
+
+

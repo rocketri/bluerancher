@@ -1,5 +1,9 @@
 # Quickstart examples for Rancher
 
+[![Terraform Plan - Azure Integration Test](https://github.com/rocketingineer/bluerancher/actions/workflows/TerraformCI-testplan.yml/badge.svg?branch=main)](https://github.com/rocketingineer/bluerancher/actions/workflows/TerraformCI-testplan.yml)
+
+[![Terraform Unit and Code Quality Test](https://github.com/rocketingineer/bluerancher/actions/workflows/TerraformCI.yml/badge.svg?branch=main)](https://github.com/rocketingineer/bluerancher/actions/workflows/TerraformCI.yml)
+
 Quickly stand up an HA-style Rancher management server in your infrastructure provider of choice.
 
 Intended for experimentation/evaluation ONLY.

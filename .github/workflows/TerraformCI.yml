@@ -1,4 +1,4 @@
-name: 'Terraform Unit and Integration Testing'
+name: 'TF Code Validation & Integration Testing'
 
 on:
   push:

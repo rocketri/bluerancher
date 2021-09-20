@@ -200,7 +200,7 @@ resource "azurerm_network_interface" "quickstart-node-interface" {
 
 # Azure linux virtual machine for creating for the workload cluster
 resource "azurerm_linux_virtual_machine" "quickstart-node" {
-  name                  = "vm-${var.prefix}-win-node-master"
+  name                  = "vm-${var.prefix}-linux-node-master"
   computer_name         = "${local.computer_name_prefix}-qm" // ensure computer_name meets 15 character limit
   location              = azurerm_resource_group.rancher-quickstart.location
   resource_group_name   = azurerm_resource_group.rancher-quickstart.name
